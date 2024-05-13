@@ -346,3 +346,7 @@ main {
   color: #ffffff;
   height: auto;
 }
+
+#imagemContainer {
+  display: none; 
+}
