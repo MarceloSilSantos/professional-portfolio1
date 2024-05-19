@@ -26,7 +26,8 @@
           <span>EU SOU ENGENHEIRO E PROGRAMADOR <br /></span>
           Seja bem-vindo ao meu Website Portfolio
         </h2>
-        <button>Saiba mais sobre mim</button>
+        <button type="button" onclick="abrirWebsite()">Saiba mais sobre mim</button>
+
         <div class="social-media">
           <img src="./src/images/git.svg" alt="logo git" />
           <img src="./src/images/linkedin.svg" alt="logo linkedin" />
@@ -107,17 +108,19 @@
           <p>Projetos Realizados</p>
         </div>
         <div class="portfolio-filter">
-          <button type="button">Projetos de Engenharia</button>
-          <button type="button">Projetos de Computação</button>
+          <button type="button" onclick="mostrarImagem1()">Projetos de Engenharia</button>
+          <button type="button" onclick="mostrarImagem2()">Projetos de Computação</button>
+
+          <img id="Figura" src="src/images/icon by LauraReen.png" style="display:block;">
          
         </div>
         <div class="card-content">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div><img id = "smallCards" src="src/images/icon-motororb.svg" alt="Motor Orbital"></div>
+          <div><img id = "smallCards" src="src/images/icon-codejava.svg" alt="Modelo código Java"></div>
+          <div><img id = "smallCards" src="src/images/icon-descad.svg" alt="exemplo desenho CAD"></div>
+          <div><img id = "smallCards" src="src/images/icon-escavad.svg" alt="escavadeira rebocada"></div>
+          <div><img id = "smallCards" src="src/images/icon-protot.svg" alt="escavadeira autopropelida"></div>
+          <div><img id = "smallCards" src="src/images/icon-escav3.svg" alt="desenvolvimento protótipo"></div>
         </div>
       </article>
       <article class="tech">
@@ -163,5 +166,6 @@
         </div>
       </article>
     </main>
+    <script src="src/scripts/script.js"></script>
   </body>
 </html>

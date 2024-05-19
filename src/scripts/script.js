@@ -1,9 +1,15 @@
+function mostrarImagem1() {
+    document.getElementById("Figura").src = "src/images/projeto3.png";
+    imagem.style.display = "block";
+}
 
-const btnMostrarFigura = document.getElementById('mostrarFigura');
-const imagemContainer = document.getElementById('imagemContainer');
-const imagem = document.getElementById('imagem');
+function mostrarImagem2() {
+    document.getElementById("Figura").src = "src/images/BaseProjetoSQL.png";
+    imagem.style.display = "block";
+}
 
-btnMostrarFigura.addEventListener('click', function() {
-    imagemContainer.style.display = 'block';
-    imagem.src = 'src\images\projeto3.png'; 
-});
+function abrirWebsite() {
+   
+    var url = "https://github.com/MarceloSilSantos";
+    window.open(url, "_blank");
+}

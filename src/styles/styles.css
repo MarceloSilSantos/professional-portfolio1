@@ -212,6 +212,8 @@ main {
   height: 260px;
   background-color: #445964;
   border-radius: 20px;
+  
+  
 }
 
 .card-content > div:nth-child(even) {
